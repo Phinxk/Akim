@@ -1,9 +1,9 @@
-{% extends "main/base.html" %}
-{% load static %}
-{% load i18n %}
-
+{% extends "main/base.html" %} 
+{% load static %} {% load i18n %} 
 {% block content %}
-
-<p>Hello world!</p>
-
+<div class="centered-container">
+  <p class="big-title">Hello world!</p>
+  <img src="{% static 'img/akim.png' %}" alt="Akim" class="background-img" height="450px" />
+  <!-- <img src="{% static 'img/akim.jpg' %}" alt="Akim" height="450px" /> -->
+</div>
 {% endblock %}

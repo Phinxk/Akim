@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+header h1 {
+  font-family: 'Open Sans', serif;
+  font-size: larger;
+  color: #f6fafa;
+  margin: 0px 12px;
+}
+body {
+  font-family: 'Open Sans', serif;
+  background-color: #c5ddde;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+}
+
+body header {
+  height: 50px;
+  /* margin-top: -13px; */
+  background-color: #272c2c;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+}
+
+body .main-container {
+  /* max-width: 1370px; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: calc(100% - 100px);
+  position: relative;
+}
+
+body .main-container footer {
+  background-color: #899a9b;
+  height: 50px;
+  justify-self: flex-end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #f6fafa;
+  text-transform: uppercase;
+}
+
+body main {
+  height: 100%;
+}
+
+body .main-container .centered-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+  position: relative;
+}
+
+body .centered-container .background-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: .5;
+}
+
+body .big-title {
+  font-size: 10rem;
+  font-weight: bold;
+  color: #f6fafa;
+  margin: 24px;
+}
