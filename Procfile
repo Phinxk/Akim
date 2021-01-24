@@ -1,0 +1,1 @@
+web: gunicorn akim.wsgi —log-file -
